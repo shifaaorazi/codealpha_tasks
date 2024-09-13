@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.music-player {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 20px;
+}
+
+    .music-player img {
+        height: 50px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .music-player .music-details {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .music-player #artist-image {
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .music-player #description {
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .music-player .controls button {
+        margin: 5px;
+    }
+
+    .music-player .controls input[type="range"] {
+        margin-top: 10px;
+    }
+
+    .music-player h2, .music-player h4 {
+        margin: 10px 0;
+    }
+
+    .music-player h2 {
+        color: #333;
+    }
+
+    .music-player h4 {
+        color: #555;
+    }
